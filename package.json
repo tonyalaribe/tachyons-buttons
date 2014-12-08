@@ -1,6 +1,6 @@
 {
   "name": "tachyons-buttons",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "style": "buttons.css",
   "homepage": "http://mrmrs.io/tachyons-buttons",
   "description": "Performance based sass module.",
