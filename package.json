@@ -1,12 +1,12 @@
 {
   "name": "tachyons-buttons",
   "version": "0.3.0",
-  "style": "buttons.css",
+  "style": "tachyons-buttons.css",
   "homepage": "http://mrmrs.io/tachyons-buttons",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
