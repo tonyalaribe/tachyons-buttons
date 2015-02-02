@@ -2,7 +2,7 @@
   "name": "tachyons-buttons",
   "version": "1.0.0",
   "style": "tachyons-buttons.css",
-  "homepage": "http://mrmrs.io/tachyons-buttons",
+  "homepage": "http://github.com/mrmrs/tachyons-buttons",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
