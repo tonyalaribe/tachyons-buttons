@@ -1,6 +1,6 @@
 {
   "name": "tachyons-buttons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "style": "tachyons-buttons.css",
   "homepage": "http://github.com/mrmrs/tachyons-buttons",
   "description": "Performance based css module.",
