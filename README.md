@@ -1,23 +1,25 @@
-# TACHYONS-BUTTONS
+# tachyons-buttons
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-buttons
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-buttons
+```
 
 ## The Code
 ```
-
 /*
  *
  * btns.css
- * ```Simple css utilities for building responsive buttons
-
+ * Simple css utilities for building responsive buttons
  * Author: mrmrs
  * License: MIT
  *
@@ -45,40 +47,23 @@ or download the css on github and include in your project.
   padding: 1em .75em;
   text-decoration: none;
   text-transform: uppercase;
-  transition: color .4s, background-color .4s, border .4s;
+  -webkit-transition: color .4s, background-color .4s, border .4s;
+          transition: color .4s, background-color .4s, border .4s;
 }
 
 .btn:hover {
   color: #7FDBFF;
   border: 1px solid #7FDBFF;
-  transition: background-color .3s, color .3s, border .3s;
+  -webkit-transition: background-color .3s, color .3s, border .3s;
+          transition: background-color .3s, color .3s, border .3s;
 }
 
 .btn:active {
   color: #0074D9;
   border: 1px solid #0074D9;
-  transition: background-color .3s, color .3s, border .3s;
+  -webkit-transition: background-color .3s, color .3s, border .3s;
+          transition: background-color .3s, color .3s, border .3s;
 }
-
-
-/*
-
-  Sizes
-
-  Small  = .btn--s
-  Medium = .btn--m
-  Large  = .btn--l
-
-  Code:
-  <a href="#" class="btn btn--s">
-  <a href="#" class="btn btn--m">
-  <a href="#" class="btn btn--l">
-
-*/
-
-.btn--s { font-size: 12px; }
-.btn--m { font-size: 14px; }
-.btn--l { font-size: 20px; border-radius: .25em!important; }
 
 
 /*
@@ -149,7 +134,7 @@ or download the css on github and include in your project.
 }
 
 .btn--gray:link,
-.btn--gray:visited, {
+.btn--gray:visited {
   background-color: #f0f0f0;
   border-color: #f0f0f0;
   color: #555;
@@ -168,7 +153,7 @@ or download the css on github and include in your project.
 }
 
 .btn--gray-border:link,
-.btn--gray-border:visited, {
+.btn--gray-border:visited {
   background-color: #fff;
   border-color: #555;
   border-width: 2px;
@@ -233,6 +218,9 @@ or download the css on github and include in your project.
     max-width: 16em!important;
   }
 }
+
+```
+
 ## Author
 
 [mrmrs](http://mrmrs.io)
