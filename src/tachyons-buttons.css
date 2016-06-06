@@ -48,6 +48,21 @@
   transition: background-color .3s, color .3s, border .3s;
 }
 
+/*
+ * Button Sizes
+ *
+ * Code:
+ * <a href="#" class="btn btn-xs">
+ *
+*/
+
+.btn-xs, .btn-xs:link, .btn-xs:visited{
+    padding: .5em .37em !important;
+}
+
+.btn-md, .btn-md:link, .btn-xs:visited{
+    padding: .75em .5em !important;
+}
 
 /*
 
