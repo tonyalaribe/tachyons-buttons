@@ -67,6 +67,24 @@ git clone git@github.com:mrmrs/tachyons-buttons
 
 
 /*
+ * Button Sizes
+ *
+ * Code:
+ * <a href="#" class="btn btn-xs">
+ * <a href="#" class="btn btn-md">
+ *
+*/
+
+.btn-xs, .btn-xs:link, .btn-xs:visited{
+    padding: .5em .37em !important;
+}
+
+.btn-md, .btn-md:link, .btn-xs:visited{
+    padding: .75em .5em !important;
+}
+
+
+/*
 
   Layout utility for responsive buttons
 
